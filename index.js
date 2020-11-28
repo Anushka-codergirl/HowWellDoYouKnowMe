@@ -75,5 +75,5 @@ console.log("Your final score: " + chalk.bold.yellow(score));
 
 if(score >= highScore[0].score){
   console.log(chalk.bold.blue("Yay!!! Congratulations!\nYou have scored a HIGH SCORE.\n"));
-  console.log(chalk.bgWhite.yellow("Please share a screenshot of your & I'll update the scoreboard."));
+  console.log(chalk.bgWhite.yellow("Please share a screenshot of your score & I'll update the scoreboard."));
 }
